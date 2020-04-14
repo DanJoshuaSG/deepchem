@@ -17,6 +17,8 @@ from deepchem.utils import vina_utils
 
 logger = logging.getLogger(__name__)
 
+DATA_DIR = deepchem.utils.get_data_dir()
+
 
 class PoseGenerator(object):
   """A Pose Generator computes low energy conformations for molecular complexes.
