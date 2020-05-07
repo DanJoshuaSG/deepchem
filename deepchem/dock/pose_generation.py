@@ -18,7 +18,6 @@ from deepchem.utils import vina_utils
 logger = logging.getLogger(__name__)
 
 
-
 class PoseGenerator(object):
   """A Pose Generator computes low energy conformations for molecular complexes.
   Many questions in structural biophysics reduce to that of computing
