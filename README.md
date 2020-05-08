@@ -87,8 +87,9 @@ conda install -c rdkit -c conda-forge rdkit deepchem==2.3.0
 
 ### Install via pip (WIP)
 
-You are able to try to install deepchem via pip using the following command.  
-However, pip installation is under development, so this command may not work well.
+You are able to try to install deepchem via pip using the following
+command. However, pip installation is under development, so this
+command may not quite work yet.
 
 `deepchem>=2.4.0`
 
@@ -126,8 +127,9 @@ Then, follow each instruction on your OS.
 bash scripts/install_deepchem_conda.sh deepchem
 ```
 
-Before activating deepchem environment, make sure conda has been initialized.  
-Check if there is a `(base)` in your command line. If not, use `conda init bash` to activate it, then:
+Before activating deepchem environment, make sure conda has been
+initialized.  Check if there is a `(base)` in your command line. If
+not, use `conda init bash` to activate it, then:
 
 ```
 conda activate deepchem
@@ -253,5 +255,4 @@ To cite this book, please use this bibtex entry:
 ```
 
 ## Version
-
-2.3.0
+2.4.0rc
